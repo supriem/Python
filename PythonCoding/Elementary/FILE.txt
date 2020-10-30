@@ -1,2 +1,0 @@
-text added this is new added line in append mode
- this is actual new line
