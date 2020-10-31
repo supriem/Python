@@ -1,0 +1,28 @@
+class Dog:
+    """ A single dog class"""
+    def __init__(self, name):
+        self.__name = name
+        
+    def speak(self):
+        return("Woof!")
+
+class Cat:
+    """ A simple class  """
+    def __init__(self,name):
+        self.__name = name
+        
+    def speak(self):
+        return("Meow!")
+    
+# method to invoke class
+def get_pet(pet = "dog"):
+    """ The factory method"""
+    pets = dict(dog  = Dog("Hope"), cat = Cat("Peace"))
+    return pets[pet]
+
+d = get_pet("dog")
+
+print(d.speak())
+
+c = get_pet("cat")
+print(c.speak())
