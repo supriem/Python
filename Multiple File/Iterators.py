@@ -42,6 +42,11 @@ def main():
     # Enumerate and zip
     for m in enumerate(zip(days,daysN), start = 1):
         print(m)
+        
+    print("Mapping **********\n")
+    for i,m in enumerate(zip(days,daysN), start = 1):
+        print(i,m[0], "=" , m[1], "in Nepali")
+    
     
 if __name__ == "__main__":
     main()
