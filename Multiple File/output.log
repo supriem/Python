@@ -1,0 +1,10 @@
+DEBUG:root: This is a debug msg
+INFO:root: This is a info msg
+WARNING:root: This is a warning msg
+ERROR:root: This is an error msg
+CRITICAL:root: This is a critical msg
+DEBUG:root: This is a debug msg
+INFO:root: This is a info msg
+WARNING:root: This is a warning msg
+ERROR:root: This is an error msg
+CRITICAL:root: This is a critical msg

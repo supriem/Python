@@ -1,0 +1,2 @@
+ 2020-11-01 19:38:52,637: INFO: main Line:11 this is an logging info-level log message
+ 2020-11-01 19:38:52,662: WARNING: main Line:12 this is an logging warning-level msg
